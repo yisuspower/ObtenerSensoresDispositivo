@@ -20,14 +20,24 @@
         android:id="@+id/textView2"
         android:textSize="18sp" />
 
-    <TextView
-        android:text="Sensores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/lblSensor"
-        android:textSize="18sp"
-        android:layout_marginTop="12dp"
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Sensores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblSensor"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </ScrollView>
 </RelativeLayout>
